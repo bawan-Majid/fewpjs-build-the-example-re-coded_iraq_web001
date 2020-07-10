@@ -6,7 +6,7 @@ let hearts = document.getElementsByClassName('like-glyph');
 let errorDiv = document.getElementById('modal');
 let modalMessage = document.getElementById('modal-message');
 
-for(let li of hearts) {
+for(let li of lisHeart) {
    li.addEventListener('click',handleClick);
 }
 
