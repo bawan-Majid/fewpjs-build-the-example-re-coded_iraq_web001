@@ -2,7 +2,7 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
-let hearts = document.getElementsByClassName('like-glyph');
+let lisHeart = document.getElementsByClassName('like-glyph');
 let errorDiv = document.getElementById('modal');
 let modalMessage = document.getElementById('modal-message');
 
